@@ -1,0 +1,78 @@
+.b-color{
+  background-color:#E0E0E0;
+}
+
+.icon{
+  margin-right: auto;
+  color:black !important;
+  padding: 10px;
+  font-weight: 500;
+}
+
+.icon-info{
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 10px;
+}
+
+.icon-info div a{
+  padding: 7px;
+}
+
+.list-group {
+  height:82vh;
+  overflow-y: scroll;
+  font-weight: 500;
+}
+
+.list-group .active{
+  background-color: #CFD0D3 !important;
+  border-color: #CFD0D3 !important;
+  color: black;
+}
+
+
+
+.dim div p{
+  display: inline-block;
+  clear:both;
+  float:left;
+  margin: 15px;
+  max-width: 50vw;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.chat-main{
+  height:82vh;
+  overflow-y: scroll;
+  background-image: url(_whatsapp.jpg);
+}
+
+.minor{
+  display: none;
+}
+
+.custom{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.custom div{
+  margin-top: 6px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+@media only screen and (max-width: 720px) {
+  .icon a img{
+    width: 75%;
+    height: 75%;
+}
+.icon-info a img{
+  width: 75%;
+  height: 75%;
+}
+}

@@ -12,11 +12,11 @@
 .icon-info{
   display: flex;
   flex-flow: row nowrap;
-  margin-top: 10px;
+  margin-top: 7px;
 }
 
 .icon-info div a{
-  padding: 7px;
+  padding: 14px;
 }
 
 .list-group {

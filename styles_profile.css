@@ -22,7 +22,6 @@ h5{
 
 .pic:hover img{
   opacity: 0.3;
-  filter: grayscale();
 }
 
 .pic:hover .text{

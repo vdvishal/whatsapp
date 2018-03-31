@@ -47,7 +47,7 @@
 .chat-main{
   height:82vh;
   overflow-y: scroll;
-  background-image: url("_whatsapp.jpg");
+  background-image: url("https://raw.githubusercontent.com/vdvishal/whatsapp/master/styles/_whatsapp.jpg");
 }
 
 .minor{
